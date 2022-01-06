@@ -244,7 +244,7 @@ const firstBlogArticle: ReactElement = (
       <Container className="gx-0">
         <Row xs="auto" className="g-0 justify-content-center">
           <Col xs={10} sm={9} md={7} lg={5}>
-            <Row xs="auto" className="gy-3 gx-0 justify-content-between">
+            <Row xs="auto" className="gy-3 gx-0 justify-content-around">
               <Col>
                 <div className="mb-1 opacity-50">
                   Напишите нам, мы всегда онлайн
