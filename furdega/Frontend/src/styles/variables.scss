@@ -1,0 +1,48 @@
+$font-weights: (
+  regular: 400,
+  medium: 500,
+  demibold: 600,
+  bold: 700,
+);
+
+$zindex-header: 950;
+$zindex-scrollspy-backdrop: 900;
+$zindex-header-menu-backdrop: 900;
+
+$content-sm-padding: 16px;
+
+// bootstrap
+
+$theme-colors: (
+  "primary": #f6e294,
+  "secondary": #ebebeb,
+  "dark": #182f27,
+);
+$body-color: #000;
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$font-family-base: VelaSans;
+$h1-font-size: 1rem * 3.875;
+$h2-font-size: 1rem * 2.875;
+
+$btn-font-size-lg: 1rem * 1.125;
+$btn-padding-y-lg: 30px;
+$btn-padding-x-lg: 42px;
+$btn-line-height: 1;
+
+$nav-link-color: map-get($theme-colors, "dark");
+$nav-link-hover-color: $body-color;
+$nav-pills-link-active-color: map-get($theme-colors, "dark");
+$nav-pills-link-active-bg: map-get($theme-colors, "primary");
+$nav-tabs-link-active-color: map-get($theme-colors, "dark");
+$nav-tabs-link-active-bg: map-get($theme-colors, "primary");
+$nav-tabs-link-active-border-color: map-get($theme-colors, "primary");
+
+$input-font-size-lg: 14px;
+$input-padding-y-lg: 14px;
+$input-padding-x-lg: 14px;
+
+$modal-header-border-width: 0;
