@@ -253,7 +253,7 @@ const firstBlogArticle: ReactElement = (
                 </div>
               </Col>
 
-              <Col>
+              <Col className="mx-2">
                 <Row xs="auto" className="gx-4">
                   <Col>
                     <a
