@@ -16,7 +16,7 @@ const firstBlogArticlePreview: BlogPreview = {
 
 const firstBlogArticle: ReactElement = (
   <>
-    <Container fluid className="g-0 mt-4 py-4">
+    <Container fluid className="g-0 mt-4 py-4 overflow-hidden">
       <Container className="g-0">
         <Row xs="auto" className="gy-5 gx-0 flex-column align-items-center">
           <Col>
@@ -246,7 +246,7 @@ const firstBlogArticle: ReactElement = (
       <Container className="gx-0">
         <Row xs="auto" className="g-0 justify-content-center">
           <Col xs={10} sm={9} md={7} lg={5}>
-            <Row xs="auto" className="gy-3 gx-0 justify-content-around">
+            <Row xs="auto" className="gy-3 gx-0 justify-content-around overflow-hidden">
               <Col>
                 <div className="mb-1 opacity-50">
                   Напишите нам, мы всегда онлайн
