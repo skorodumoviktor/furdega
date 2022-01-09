@@ -88,7 +88,7 @@ const firstBlogArticle: ReactElement = (
               поменять обивку.
             </p>
 
-            <h3 className="my-5">Знакомство с перетяжкой</h3>
+            <h3 className="blog-p-title my-5">Знакомство с перетяжкой</h3>
 
             <p>
               Многие люди знакомятся с перетяжкой совершенно случайно.
@@ -129,7 +129,7 @@ const firstBlogArticle: ReactElement = (
               могла быть навсегда упущена.
             </p>
 
-            <h3 className="my-5">
+            <h3 className="blog-p-title my-5">
               Немного о том, какая жизнь вас ждет без перетяжки
             </h3>
 
@@ -158,7 +158,9 @@ const firstBlogArticle: ReactElement = (
               height={360}
             />
 
-            <h3 className="my-5">Почему мы знаем о вашей проблеме все?</h3>
+            <h3 className="blog-p-title my-5">
+              Почему мы знаем о вашей проблеме все?
+            </h3>
 
             <p>
               Если нам удалось привлечь ваше внимание к перетяжке мебели,
@@ -244,7 +246,7 @@ const firstBlogArticle: ReactElement = (
       <Container className="gx-0">
         <Row xs="auto" className="g-0 justify-content-center">
           <Col xs={10} sm={9} md={7} lg={5}>
-            <Row xs="auto" className="gy-3 gx-0 justify-content-between">
+            <Row xs="auto" className="gy-3 gx-0 justify-content-around">
               <Col>
                 <div className="mb-1 opacity-50">
                   Напишите нам, мы всегда онлайн
