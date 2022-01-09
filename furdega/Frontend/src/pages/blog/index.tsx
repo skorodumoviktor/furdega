@@ -5,6 +5,7 @@ import { ReactComponent as ArrowIcon } from "../../assets/svg/arrow-long-right.s
 import { tags, blogArticlesPreviews } from "../../const/blog"
 import { useParams } from "react-router"
 import { blogArticles } from "../../const/blog"
+import "./blog.scss"
 
 const BlogHome: FC = () => {
   const lastArticlePreview =
